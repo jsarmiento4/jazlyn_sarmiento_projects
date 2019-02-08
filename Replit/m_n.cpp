@@ -10,7 +10,7 @@ int main() {
   cin >> M >> N;
 
   O = M + N;
-  while (N < 0){
+  while (N < O){
     ascii = N + 96;
     letter = ascii;
     if (ascii < 123){
