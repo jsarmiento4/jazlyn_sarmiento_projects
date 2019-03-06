@@ -1,5 +1,5 @@
 class Solution:
-    def Fizzbuzz(n):
+    def Fizzbuzz(self, n):
         result = []
 
         for i in range(1, n + 1):
@@ -13,4 +13,4 @@ class Solution:
                 result.append(i)
         return result
 
-    print Fizzbuzz(15)
+    print Fizzbuzz(15);
